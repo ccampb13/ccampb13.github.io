@@ -1,2 +1,7 @@
-ccampb13.github.io
-==================
+# Portfolio for Chad Campbell
+
+### Technologies used
+
+ * HTML
+ * CSS
+ * JS
