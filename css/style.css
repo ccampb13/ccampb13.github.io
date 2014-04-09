@@ -11,10 +11,10 @@ body {
 h1 {
   color: black;
   background-color: white;
-  font-family: 'Devonshire', cursive;
+  font-family: 'Lemon', cursive;
   font-size: 60px;
   padding: 10px;
-  opacity: 0.60;
+  opacity: 0.80;
 }
 
 h4{
