@@ -9,8 +9,8 @@ body {
 }
 
 h1 {
-  color: #235b79;
-  background-color: #ff8b00;
+  color: black;
+  background-color: white;
   font-family: 'Devonshire', cursive;
   font-size: 60px;
   padding: 10px;
@@ -18,9 +18,9 @@ h1 {
 }
 
 h4{
-  border: 10px double #ff8b00;
+  border: 10px double black;
   padding: 3px;
-  background-color: #64AAD0;
+  background-color: #white;
   border-radius: 10px;
   font-family: 'Lemon', cursive;
   font-size: 20px;
