@@ -2,6 +2,12 @@
 @import url(http://fonts.googleapis.com/css?family=Lemon);
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
 
+* {
+   -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   background-image: url("../images/stardust.png");
   background-size: cover;
@@ -14,11 +20,13 @@ h1 {
   font-size: 60px;
   padding: 10px;
   opacity: 0.80;
+  text-align: center;
 }
 
 h3 {
   color: green;
   padding: 10px;
+  text-align: center;
 }
 
 h4{
@@ -28,32 +36,56 @@ h4{
   border-radius: 10px;
   font-family: 'Poiret One', cursive;
   font-size: 20px;
+  text-align: center
 }
- li:nth-child(2n) {
-   color: green;
- }
 
- li:nth-child(2n + 1){
-   color:green
-   ;
-   font-family: 'Poiret One', cursive;
- }
 
- div.clear{
-   float:right;
-   width:300px;
-   height: 100px:
- }
-
- a {
+a  {
    color:green;
    text-decoration:none;
- }
+   }
 
  a:hover{
    text-decoration: underline;
  }
 
+img{
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 130px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+
+    .img1{
+      float:left;
+      padding: 75px 75px 0px 75px;
+    }
+
+    .img3{
+      float: left;
+      padding: 75px 75px 0px 75px;
+    }
+
+    .img2{
+      float: left;
+      padding: 75px 75px 0px 75px;
+    }
+    .img4{
+      float: left;
+      padding: 75px 75px 0px 75px;
+    }
+
+    .img5{
+      float: left;
+      padding: 75px 75px 0px 75px;
+    }
+
+
  p {
    color: white;
+   text-align: center;
  }
